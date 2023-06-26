@@ -1,0 +1,149 @@
+/* General style */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 40px 40px;
+    color: #595959;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    line-height: 24px;
+}
+
+.orange-word {
+    color: #FB6D3A;
+}
+
+.duration {
+    font-size: 12px;
+    color: #A8A8A8;
+}
+/* sidebar section */
+.sidebar-section {
+    background-color: #1E2939;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+}
+
+.contact-section h2 {
+    color: #FFF;
+}
+
+.sidebar-section img {
+    width: 370px;
+    margin-top: 2em;
+}
+
+.contact-section {
+    margin-top: 3em;
+    margin-left: 2em;
+}
+
+.sidebar-section a {
+    color: #727983;
+    margin-left: 10px;
+}
+
+.sidebar-list {
+    padding-left: 1.1em;
+}
+
+.sidebar-section li::marker {
+    color: #FB6D3A;
+}
+
+.tech-skills {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+/* Right section style */
+.right-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+    color: #595959;
+    ;
+}
+
+.right-section h1,
+h2,
+h3 {
+    color: #000000;
+}
+
+.right-section ol li {
+    font-weight: 700;
+    color: #000000;
+    margin-left: -1.4em;
+}
+
+.right-section a {
+    color: #595959;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.projects-item {
+    color: #595959;
+    font-weight: 400;
+}
+
+.about-me-section{
+    margin-top: 3.5em;
+}
+.about-me-section p {
+    width: 400px;
+}
+
+.about-me-profession {
+    font-size: 14px;
+    color: #000000;
+    margin: auto;
+    padding-top: 4em;
+}
+
+.projects li::marker {
+    color: #000000;
+}
+
+/* work experience section */
+.work-experience-section{
+    margin-top: 2.5em;
+}
+.work-experience-section h3 {
+    margin-bottom: -1em;
+}
+.work-experience-section .duration{
+    margin-top: 2.5em;
+    margin-bottom: -1em;
+}
+.work-experience-section ul {
+    margin-left: -1.4em;
+}
+
+
+/* education section */
+
+.education-section {
+    margin-bottom: 6em;
+    line-height: 0.8em;
+}
+#management {
+    color: #000000;
+    font-weight: 700;
+}
